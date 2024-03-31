@@ -1,0 +1,7 @@
+.Quote {
+	margin-top: 25px;
+	padding: 25px;
+	background-color: #e3e3e3;
+	border-color: grey;
+	border-left-width: 10px;
+}

@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06f3d868a6d8dbe4d9c3e11858ac8e9e, type: 3}
+  m_Name: AddressableHeroRenderer
+  m_EditorClassIdentifier: 
+  <Styles>k__BackingField: []
+  _heroView: {fileID: 9197481963319205126, guid: 1b06f09a0b0f513408126ee104e96e60, type: 3}

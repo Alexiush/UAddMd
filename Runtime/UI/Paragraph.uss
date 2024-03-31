@@ -1,0 +1,7 @@
+.Paragraph {
+	margin-top: 25px;
+}
+
+.ListItem * .Paragraph {
+	margin-top: 0;
+}

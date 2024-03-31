@@ -1,0 +1,39 @@
+{
+  "name": "com.alexiush.uaddmd",
+  "displayName": "U Add Md",
+  "version": "1.0.0",
+  "description": "This is highly customizable markdown renderer for both runtime and editor.\nIt supports full basic markdwon syntax including image and video links via addressables.",
+  "unity": "2022.3",
+  "unityRelease": "5f1",
+  "documentationUrl": "https://example.com/",
+  "licensesUrl": "https://example.com/licensing.html",
+  "dependencies": {
+    "com.unity.addressables": "1.21.20"
+  },
+  "keywords": [
+    "Markdown",
+    "Addressables"
+  ],
+  "author": {
+    "name": "Alexiush",
+    "email": "streltsov2609@gmail.com",
+    "url": "https://github.com/Alexiush"
+  },
+  "samples": [
+    {
+      "displayName": "Tutorial with illustrations",
+      "description": "Example of adressables rendering support",
+      "path": "Samples~/TutorialExample"
+    },
+    {
+      "displayName": "EditorWindow Example",
+      "description": "Example on how to use MarkdownRenderer within an editor UI",
+      "path": "Samples~/EditorWindowSample"
+    },
+    {
+      "displayName": "Custom AddressableRenderer",
+      "description": "Example of creating own addressable renderer and its usage",
+      "path": "Samples~/CustomAddressableExample"
+    }
+  ]
+}

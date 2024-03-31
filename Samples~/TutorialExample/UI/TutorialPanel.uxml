@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Packages/com.alexiush.uaddmd/Samples/TutorialExample/UI/TutorialPanel.uss?fileID=7433441132597879392&amp;guid=0fead4cf43b3a7a43a8f630879b9476a&amp;type=3#TutorialPanel" />
+    <ui:VisualElement name="Tabs" style="flex-grow: 0;" />
+    <ui:VisualElement name="TabContent" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);" />
+</ui:UXML>

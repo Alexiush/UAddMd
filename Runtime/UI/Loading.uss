@@ -1,0 +1,9 @@
+.loading-default {
+    height: 300px;
+    background-color: #ededed;
+    transition-duration: 2s;
+}
+
+.change-background-yoyo {
+    background-color: #d4d4d4;
+}

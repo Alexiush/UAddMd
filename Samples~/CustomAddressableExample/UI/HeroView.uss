@@ -1,0 +1,25 @@
+#Container {
+    background-color: gray;
+    width: 70%;
+    flex-direction: row;
+    align-items: center;
+}
+
+#Name {
+    margin: 0;
+    width: 70%;
+}
+
+#Icon {
+    height: 100%;
+    width: 30%;
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+Label {
+    background-color: rgb(255, 244, 148);
+}
+
+#Stats {
+    width: 70%;
+}

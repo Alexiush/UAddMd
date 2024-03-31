@@ -1,0 +1,5 @@
+Image {
+    --unity-image-size: scale-to-fit;
+    width: 90%;
+    align-self: center;
+}

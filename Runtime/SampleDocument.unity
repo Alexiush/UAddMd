@@ -1,0 +1,424 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 10
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 0
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 0
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 500
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 2
+    m_PVRDenoiserTypeDirect: 0
+    m_PVRDenoiserTypeIndirect: 0
+    m_PVRDenoiserTypeAO: 0
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 0
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 3
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    buildHeightMesh: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &519420028
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 519420032}
+  - component: {fileID: 519420031}
+  - component: {fileID: 519420029}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &519420029
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+--- !u!20 &519420031
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 0
+  m_HDR: 1
+  m_AllowMSAA: 0
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 0
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &519420032
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1650893073
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1650893075}
+  - component: {fileID: 1650893074}
+  - component: {fileID: 1650893078}
+  - component: {fileID: 1650893077}
+  m_Layer: 5
+  m_Name: Markdown
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1650893074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1650893073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 19102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PanelSettings: {fileID: 11400000, guid: 6378b7e4fff7b5942826f17923aa35c4, type: 2}
+  m_ParentUI: {fileID: 0}
+  sourceAsset: {fileID: 9197481963319205126, guid: a5a4572ceed7614468ba0f9fc405849c, type: 3}
+  m_SortingOrder: 0
+--- !u!4 &1650893075
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1650893073}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1650893077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1650893073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 475faabb049eac94b8b160ddf8757981, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _text: "# Markdown: Syntax\n\n*   [Overview](#overview)\r\n    *   [Philosophy](#philosophy)\r\n   
+    *   [Inline HTML](#html)\r\n    *   [Automatic Escaping for Special Characters](#autoescape)\r\n*  
+    [Block Elements](#block)\r\n    *   [Paragraphs and Line Breaks](#p)\r\n    *  
+    [Headers](#header)\r\n    *   [Blockquotes](#blockquote)\r\n    *   [Lists](#list)\r\n   
+    *   [Code Blocks](#precode)\r\n    *   [Horizontal Rules](#hr)\r\n*   [Span Elements](#span)\r\n   
+    *   [Links](#link)\r\n    *   [Emphasis](#em)\r\n    *   [Code](#code)\r\n   
+    *   [Images](#img)\r\n*   [Miscellaneous](#misc)\r\n    *   [Backslash Escapes](#backslash)\r\n   
+    *   [Automatic Links](#autolink)\r\n\r\n\r\n**Note:** This is based on this [repository](https://github.com/mxstbr/markdown-test-file).\r\n\r\n----\r\n\r\n##
+    Overview\r\n\r\n### Philosophy\r\n\r\nMarkdown is intended to be as easy-to-read
+    and easy-to-write as is feasible.\r\n\r\nReadability, however, is emphasized
+    above all else. A Markdown-formatted\r\ndocument should be publishable as-is,
+    as plain text, without looking\r\nlike it's been marked up with tags or formatting
+    instructions. While\r\nMarkdown's syntax has been influenced by several existing
+    text-to-HTML\r\nfilters -- including [Setext](http://docutils.sourceforge.net/mirror/setext.html),
+    [atx](http://www.aaronsw.com/2002/atx/), [Textile](http://textism.com/tools/textile/),
+    [reStructuredText](http://docutils.sourceforge.net/rst.html),\r\n[Grutatext](http://www.triptico.com/software/grutatxt.html),
+    and [EtText](http://ettext.taint.org/doc/) -- the single biggest source of\r\ninspiration
+    for Markdown's syntax is the format of plain text email.\r\n\r\n## Block Elements\r\n\r\n###
+    Paragraphs and Line Breaks\r\n\r\nA paragraph is simply one or more consecutive
+    lines of text, separated\r\nby one or more blank lines. (A blank line is any
+    line that looks like a\r\nblank line -- a line containing nothing but spaces
+    or tabs is considered\r\nblank.) Normal paragraphs should not be indented with
+    spaces or tabs.\r\n\r\nThe implication of the \"one or more consecutive lines
+    of text\" rule is\r\nthat Markdown supports \"hard-wrapped\" text paragraphs.
+    This differs\r\nsignificantly from most other text-to-HTML formatters (including
+    Movable\r\nType's \"Convert Line Breaks\" option) which translate every line
+    break\r\ncharacter in a paragraph into a `<br />` tag.\r\n\r\nWhen you *do* want
+    to insert a `<br />` break tag using Markdown, you\r\nend a line with two or
+    more spaces, then type return.\r\n\r\n### Headers\r\n\r\nMarkdown supports two
+    styles of headers, [Setext] [1] and [atx] [2].\r\n\r\nOptionally, you may \"close\"
+    atx-style headers. This is purely\r\ncosmetic -- you can use this if you think
+    it looks better. The\r\nclosing hashes don't even need to match the number of
+    hashes\r\nused to open the header. (The number of opening hashes\r\ndetermines
+    the header level.)\r\n\r\n\r\n### Blockquotes\r\n\r\nMarkdown uses email-style
+    `>` characters for blockquoting. If you're\r\nfamiliar with quoting passages
+    of text in an email message, then you\r\nknow how to create a blockquote in Markdown.
+    It looks best if you hard\r\nwrap the text and put a `>` before every line:\r\n\r\n>
+    This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,\r\n> consectetuer
+    adipiscing elit. Aliquam hendrerit mi posuere lectus.\r\n> Vestibulum enim wisi,
+    viverra nec, fringilla in, laoreet vitae, risus.\r\n> \r\n> Donec sit amet nisl.
+    Aliquam semper ipsum sit amet velit. Suspendisse\r\n> id sem consectetuer libero
+    luctus adipiscing.\r\n\r\nMarkdown allows you to be lazy and only put the `>`
+    before the first\r\nline of a hard-wrapped paragraph:\r\n\r\n> This is a blockquote
+    with two paragraphs. Lorem ipsum dolor sit amet,\r\nconsectetuer adipiscing elit.
+    Aliquam hendrerit mi posuere lectus.\r\nVestibulum enim wisi, viverra nec, fringilla
+    in, laoreet vitae, risus.\r\n\r\n> Donec sit amet nisl. Aliquam semper ipsum
+    sit amet velit. Suspendisse\r\nid sem consectetuer libero luctus adipiscing.\r\n\r\nBlockquotes
+    can be nested (i.e. a blockquote-in-a-blockquote) by\r\nadding additional levels
+    of `>`:\r\n\r\n> This is the first level of quoting.\r\n>\r\n> > This is nested
+    blockquote.\r\n>\r\n> Back to the first level.\r\n\r\nBlockquotes can contain
+    other Markdown elements, including headers, lists,\r\nand code blocks:\r\n\r\n>
+    ## This is a header.\r\n> \r\n> 1.   This is the first list item.\r\n> 2.   This
+    is the second list item.\r\n> \r\n> Here's some example code:\r\n> \r\n>    
+    return shell_exec(\"echo $input | $markdown_script\");\r\n\r\nAny decent text
+    editor should make email-style quoting easy. For\r\nexample, with BBEdit, you
+    can make a selection and choose Increase\r\nQuote Level from the Text menu.\r\n\r\n\r\n###
+    Lists\r\n\r\nMarkdown supports ordered (numbered) and unordered (bulleted) lists.\r\n\r\nUnordered
+    lists use asterisks, pluses, and hyphens -- interchangably\r\n-- as list markers:\r\n\r\n*  
+    Red\r\n*   Green\r\n*   Blue\r\n\r\nis equivalent to:\r\n\r\n+   Red\r\n+   Green\r\n+  
+    Blue\r\n\r\nand:\r\n\r\n-   Red\r\n-   Green\r\n-   Blue\r\n\r\nOrdered lists
+    use numbers followed by periods:\r\n\r\n1.  Bird\r\n2.  McHale\r\n3.  Parish\r\n\r\nIt's
+    important to note that the actual numbers you use to mark the\r\nlist have no
+    effect on the HTML output Markdown produces. The HTML\r\nMarkdown produces from
+    the above list is:\r\n\r\nIf you instead wrote the list in Markdown like this:\r\n\r\n1. 
+    Bird\r\n1.  McHale\r\n1.  Parish\r\n\r\nor even:\r\n\r\n3. Bird\r\n1. McHale\r\n8.
+    Parish\r\n\r\nyou'd get the exact same HTML output. The point is, if you want
+    to,\r\nyou can use ordinal numbers in your ordered Markdown lists, so that\r\nthe
+    numbers in your source match the numbers in your published HTML.\r\nBut if you
+    want to be lazy, you don't have to.\r\n\r\nTo make lists look nice, you can wrap
+    items with hanging indents:\r\n\r\n*   Lorem ipsum dolor sit amet, consectetuer
+    adipiscing elit.\r\n    Aliquam hendrerit mi posuere lectus. Vestibulum enim
+    wisi,\r\n    viverra nec, fringilla in, laoreet vitae, risus.\r\n*   Donec sit
+    amet nisl. Aliquam semper ipsum sit amet velit.\r\n    Suspendisse id sem consectetuer
+    libero luctus adipiscing.\r\n\r\nBut if you want to be lazy, you don't have to:\r\n\r\n*  
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\r\nAliquam hendrerit
+    mi posuere lectus. Vestibulum enim wisi,\r\nviverra nec, fringilla in, laoreet
+    vitae, risus.\r\n*   Donec sit amet nisl. Aliquam semper ipsum sit amet velit.\r\nSuspendisse
+    id sem consectetuer libero luctus adipiscing.\r\n\r\nList items may consist of
+    multiple paragraphs. Each subsequent\r\nparagraph in a list item must be indented
+    by either 4 spaces\r\nor one tab:\r\n\r\n1.  This is a list item with two paragraphs.
+    Lorem ipsum dolor\r\n    sit amet, consectetuer adipiscing elit. Aliquam hendrerit\r\n   
+    mi posuere lectus.\r\n\r\n    Vestibulum enim wisi, viverra nec, fringilla in,
+    laoreet\r\n    vitae, risus. Donec sit amet nisl. Aliquam semper ipsum\r\n   
+    sit amet velit.\r\n\r\n2.  Suspendisse id sem consectetuer libero luctus adipiscing.\r\n\r\nIt
+    looks nice if you indent every line of the subsequent\r\nparagraphs, but here
+    again, Markdown will allow you to be\r\nlazy:\r\n\r\n*   This is a list item
+    with two paragraphs.\r\n\r\n    This is the second paragraph in the list item.
+    You're\r\nonly required to indent the first line. Lorem ipsum dolor\r\nsit amet,
+    consectetuer adipiscing elit.\r\n\r\n*   Another item in the same list.\r\n\r\nTo
+    put a blockquote within a list item, the blockquote's `>`\r\ndelimiters need
+    to be indented:\r\n\r\n*   A list item with a blockquote:\r\n\r\n    > This is
+    a blockquote\r\n    > inside a list item.\r\n\r\nTo put a code block within a
+    list item, the code block needs\r\nto be indented *twice* -- 8 spaces or two
+    tabs:\r\n\r\n*   A list item with a code block:\r\n\r\n        <code goes here>\r\n\r\n###
+    Code Blocks\r\n\r\nPre-formatted code blocks are used for writing about programming
+    or\r\nmarkup source code. Rather than forming normal paragraphs, the lines\r\nof
+    a code block are interpreted literally. Markdown wraps a code block\r\nin both
+    `<pre>` and `<code>` tags.\r\n\r\nTo produce a code block in Markdown, simply
+    indent every line of the\r\nblock by at least 4 spaces or 1 tab.\r\n\r\nThis
+    is a normal paragraph:\r\n\r\n    This is a code block.\r\n\r\nHere is an example
+    of AppleScript:\r\n\r\n    tell application \"Foo\"\r\n        beep\r\n    end
+    tell\r\n\r\nA code block continues until it reaches a line that is not indented\r\n(or
+    the end of the article).\r\n\r\nWithin a code block, ampersands (`&`) and angle
+    brackets (`<` and `>`)\r\nare automatically converted into HTML entities. This
+    makes it very\r\neasy to include example HTML source code using Markdown -- just
+    paste\r\nit and indent it, and Markdown will handle the hassle of encoding the\r\nampersands
+    and angle brackets. For example, this:\r\n\r\n    <div class=\"footer\">\r\n       
+    &copy; 2004 Foo Corporation\r\n    </div>\r\n\r\nRegular Markdown syntax is not
+    processed within code blocks. E.g.,\r\nasterisks are just literal asterisks within
+    a code block. This means\r\nit's also easy to use Markdown to write about Markdown's
+    own syntax.\r\n\r\n```\r\ntell application \"Foo\"\r\n    beep\r\nend tell\r\n```\r\n\r\n##
+    Span Elements\r\n\r\n### Links\r\n\r\nMarkdown supports two style of links: *inline*
+    and *reference*.\r\n\r\nIn both styles, the link text is delimited by [square
+    brackets].\r\n\r\nTo create an inline link, use a set of regular parentheses
+    immediately\r\nafter the link text's closing square bracket. Inside the parentheses,\r\nput
+    the URL where you want the link to point, along with an *optional*\r\ntitle for
+    the link, surrounded in quotes. For example:\r\n\r\nThis is [an example](http://example.com/)
+    inline link.\r\n\r\n[This link](http://example.net/) has no title attribute.\r\n\r\n###
+    Emphasis\r\n\r\nMarkdown treats asterisks (`*`) and underscores (`_`) as indicators
+    of\r\nemphasis. Text wrapped with one `*` or `_` will be wrapped with an\r\nHTML
+    `<em>` tag; double `*`'s or `_`'s will be wrapped with an HTML\r\n`<strong>`
+    tag. E.g., this input:\r\n\r\n*single asterisks*\r\n\r\n_single underscores_\r\n\r\n**double
+    asterisks**\r\n\r\n__double underscores__\r\n\r\n### Code\r\n\r\nTo indicate
+    a span of code, wrap it with backtick quotes (`` ` ``).\r\nUnlike a pre-formatted
+    code block, a code span indicates code within a\r\nnormal paragraph. For example:\r\n\r\nUse
+    the `printf()` function."
+  _renderTarget: {fileID: 1650893074}
+  _renderer: {fileID: 1650893078}
+  _viewsCollection: {fileID: 11400000, guid: dcd1f8b2492e0b7479f0b8eaa144cabd, type: 2}
+  <EditorManualUpdate>k__BackingField: 1
+--- !u!114 &1650893078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1650893073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80ca2ac413fb2fa41a988e7195e84f32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _trackTrivia: 0
+--- !u!1660057539 &9223372036854775807
+SceneRoots:
+  m_ObjectHideFlags: 0
+  m_Roots:
+  - {fileID: 519420032}
+  - {fileID: 1650893075}

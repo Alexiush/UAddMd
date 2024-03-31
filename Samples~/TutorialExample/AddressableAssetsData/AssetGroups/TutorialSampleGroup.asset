@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: TutorialSampleGroup
+  m_EditorClassIdentifier: 
+  m_GroupName: TutorialSampleGroup
+  m_GUID: 449cac8125854604793dc7addda746bd
+  m_SerializeEntries:
+  - m_GUID: 1e47a1402f60dd54ca6d4a6954d04d3c
+    m_Address: CrosswordCreation.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5946ec2b2b8a21140b205df617ec2e92
+    m_Address: Packages/com.alexiush.uaddmd/Samples/TutorialExample/Images/ShopExample.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5009240d36b186445b7b19ef7dc618c1
+    m_Address: Services.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c0f562815e0a5154281a6434fcfa570c
+    m_Address: LetterColorsExample.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ddb37fe87c35d2443baff7948993bbef
+    m_Address: GamesHistory.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 21229c7842899fb489c311a0aa870107
+    m_Address: GameLayoutBonuses.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1f69975a4723ae24faa87f8135d49dfb
+    m_Address: GameLayout.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3ede4146450bd1945b468e1d3a982f11
+    m_Address: GameFinishedScreenshot.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bb3ee5ca5283a09418ef5ffe438a964e
+    m_Address: Dictionary.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5aa19ce05df2bde42831025ddfc7a444
+    m_Address: CrosswordWinClip.mp4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d0392b206fcc9cc4a896dca91a626280, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 4500a430765f1cb4894adf285c5f52cd, type: 2}
+    - {fileID: 11400000, guid: 40a2d5f1036270b4f8621272ef23399a, type: 2}

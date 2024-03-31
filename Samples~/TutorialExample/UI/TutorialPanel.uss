@@ -1,0 +1,29 @@
+/* Style for tabs */
+#Tabs {
+    flex-direction: row;
+    background-color: rgb(229, 223, 223);
+    -unity-font-style: bold;
+    font-size: 64px;
+    -unity-text-align: middle-center;
+}
+
+/* Sets each label in tabs to have the same size. */
+.tab {
+    flex-grow: 1;
+}
+
+/* Adds background color for the selected tab */
+.currentlySelectedTab {
+    background-color: rgb(173, 166, 166);
+}
+
+/* Style for tabContent */
+#TabContent {
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+/* Hides the unselected tab content */
+.unselectedContent {
+    display: none;
+}

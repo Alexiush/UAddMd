@@ -1,0 +1,35 @@
+.heading_1 Label {
+    margin-top: 30px;
+    -unity-font-style: bold;
+    font-size: 144px;
+}
+
+.heading_2 Label {
+    margin-top: 28px;
+    -unity-font-style: bold;
+    font-size: 120px;
+}
+
+.heading_3 Label {
+    margin-top: 24px;
+    -unity-font-style: bold;
+    font-size: 108px;
+}
+
+.heading_4 Label {
+    margin-top: 20px;
+    -unity-font-style: bold;
+    font-size: 96px;
+}
+
+.heading_5 Label {
+    margin-top: 18px;
+    -unity-font-style: bold;
+    font-size: 84px;
+}
+
+.heading_6 Label {
+    margin-top: 16px;
+    -unity-font-style: bold;
+    font-size: 72px;
+}

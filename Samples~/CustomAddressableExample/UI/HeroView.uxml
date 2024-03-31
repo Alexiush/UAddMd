@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Packages/com.alexiush.uaddmd/Samples/CustomAddressableExample/UI/HeroView.uss?fileID=7433441132597879392&amp;guid=96fbe4a4af6f863438cdf9e847311828&amp;type=3#HeroView" />
+    <ui:Label text="Label" name="Name" style="color: rgb(255, 255, 255); background-color: rgb(82, 0, 3); -unity-text-align: upper-center;" />
+    <ui:VisualElement name="Container" style="flex-grow: 1;">
+        <ui:VisualElement name="Icon" style="flex-grow: 1;" />
+        <ui:VisualElement name="Stats" style="flex-grow: 1;">
+            <ui:Label text="Label" name="Attack" />
+            <ui:Label text="Label" name="Health" />
+            <ui:Label text="Label" name="Speed" />
+            <ui:Label text="Label" name="Defense" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

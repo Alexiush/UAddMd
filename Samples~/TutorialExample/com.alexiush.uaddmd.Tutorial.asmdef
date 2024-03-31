@@ -1,0 +1,28 @@
+{
+    "name": "com.alexiush.uaddmd.Tutorial",
+    "rootNamespace": "",
+    "references": [
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner",
+        "com.alexiush.uaddmd.Editor",
+        "com.alexiush.uaddmd.Runtime",
+        "Unity.Addressables",
+        "Unity.Addressables.Editor",
+        "Unity.Addressables.Editor.Tests",
+        "Unity.Addressables.Tests",
+        "Unity.ResourceManager",
+        "Unity.ResourceManager.Tests"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll",
+        "Markdig.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

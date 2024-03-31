@@ -1,0 +1,4 @@
+.Break {
+    border-color: rgb(153, 153, 153);
+    border-top-width: 3px;
+}

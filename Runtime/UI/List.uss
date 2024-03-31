@@ -1,0 +1,12 @@
+.List {
+
+}
+
+.ListItem {
+    display: flex;
+    flex-direction: row;
+}
+
+.ListIdentifier {
+    margin-top: 0;
+}

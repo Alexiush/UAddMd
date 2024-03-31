@@ -1,0 +1,27 @@
+Label {
+    font-size: 56px;
+    white-space: normal;
+}
+
+VisualElement {
+    height: auto;
+}
+
+ListView {
+    margin-left: 10px;
+}
+
+#Scroll .unity-list-view__item:hover {
+    color: black;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#Scroll .unity-list-view__item:focus {
+    color: black;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#Scroll .unity-list-view__item:selected {
+    color: black;
+    background-color: rgba(0, 0, 0, 0);
+}
