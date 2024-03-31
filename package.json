@@ -5,8 +5,7 @@
   "description": "This is highly customizable markdown renderer for both runtime and editor.\nIt supports full basic markdwon syntax including image and video links via addressables.",
   "unity": "2022.3",
   "unityRelease": "5f1",
-  "documentationUrl": "https://example.com/",
-  "licensesUrl": "https://example.com/licensing.html",
+  "licensesUrl": "https://github.com/Alexiush/UAddMd/blob/main/LICENSE.md",
   "dependencies": {
     "com.unity.addressables": "1.21.20"
   },
