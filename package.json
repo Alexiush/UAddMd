@@ -21,6 +21,11 @@
   },
   "samples": [
     {
+      "displayName": "Base Markdown document",
+      "description": "Big Markdown document showcasing how basic markdown features handled default",
+      "path": "Samples~/BaseDocument"
+    },
+    {
       "displayName": "Tutorial with illustrations",
       "description": "Example of adressables rendering support",
       "path": "Samples~/TutorialExample"
